@@ -17,9 +17,9 @@ $(document).ready(function(e) {
 	
 	// search button handlers
 	$('#searchButton').mouseover( function() {
-		$(this).attr('src', 'img/search_button_hover.jpg');
+		//$(this).attr('src', 'img/search_button_hover.jpg');
 	});
 	$('#searchButton').mouseout( function() {
-		$(this).attr('src', 'img/search_button.jpg');
+		//$(this).attr('src', 'img/search_button.jpg');
 	});
 });
