@@ -1,122 +1,139 @@
 @charset "UTF-8";
-
 #headr {
-	width: 100%;
-	min-width: 480px;
-	background-color: #FFFFFF;
+  width: 100%;
+  min-width: 480px;
+  background-color: #FFFFFF;
 }
 #top_headr {
-	margin-left: auto;
-	margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
 }
 #left_headr {
-	float: left;
-	height: 83px;
-	width: 50%;
-	min-width: 205px;
-	padding-left: 10px;
+  float: left;
+  height: 100%;
+  width: 50%;
+  min-width: 205px;
+  padding-left: 10px;
 }
 #right_headr {
-	height: 83px;
-	float: right;
-	width: 45%;
-	min-width: 50px;
-	text-align: right;
-	padding-right: 10px;
+  height: 100%;
+  float: right;
+  width: 45%;
+  min-width: 50px;
+  text-align: right;
+  padding-right: 10px;
 }
 #logo_img {
-	width: 283px;
-	height: 83px;
-	float: left;
-	margin-right: 10px;
-}
-#logo_img_mobile {
-	width: 205px;
-	height: 60px;
-	float: left;
+  width: 205px;
+  height: 60px;
+  float: left;
+  margin-right: 10px;
 }
 .gen_text {
-	font-family: abel;
-	font-style: normal;
-	font-weight: 400;
-	color: #909599;
-	display: inline-block;
-	vertical-align: middle;
-	padding-top: 5px;
+  font-family: abel;
+  font-style: normal;
+  font-weight: 400;
+  color: #909599;
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 5px;
 }
 .text_small {
-	font-size: small;
+  font-size: small;
 }
 #signIn {
-	padding-right: 20px;
+  padding-right: 20px;
 }
 #phoneNum {
-  padding-top: 60px;
-  font-weight: bold;
-}
-#searchBox {
-	vertical-align: middle;
+  padding-top: 40px;
 }
 #searchButton {
-  width: 83px;
-  height: 82px;
-  background-image: url(/img/search_icon.png);
+  width: 59px;
+  height: 59px;
   float: right;
-}
-#account_links {
-	line-height: 35px;
-}
-#navBar {
-  width: 100%;
-  background-color: #FFFFFF;
-  font-weight: bold;
-  border-top-color: #909599;
-  border-top-width: 1px;
-}
-#navBar.show {
-	width: 200px;
-	height: auto;
-}
-.nav_elem {
-	width: 12%;
-	display: inline-block;
-	text-align: center;
-}
-.nav_elem.show {
-	width: 100%;
-}
-.text_center {
-	text-align: center;
-}
-.text_left {
-	text-align: left;
-}
-.text_right {
-	text-align: right;
-}
-#livingDiv {
-	width: 6%;
-	display: inline-block;
-}
-#testpara {
-	text-align: justify;
-}
-#addressDiv {
-	float: left;
 }
 #cartDiv {
   width: 83px;
   height: 100%;
   float: right;
 }
-#cartButton {
-  width: 100%;
-  height: 50%;
-}
 #cartItems {
   overflow: hidden;
   text-align: center;
-  font-weight: bolder;
+  font-weight: bold;
   color: #fb0029;
   width: 100%;
+}
+#navBar {
+  width: 100%;
+}
+#navBar.show {
+  width: 200px;
+  height: auto;
+}
+#navBar a {
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+}
+#navMain {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.mainElem {
+  text-align: center;
+  float: left;
+  z-index: 99;
+  width: 12%;
+  margin: 0;
+  padding: 0;
+}
+.mainElem:hover ul {
+    display: block;
+}
+.navSub {
+  list-style-type: none;
+  display: none;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+}
+.navSub a {
+  font-size: small;
+}
+.subElem {
+    float: left;
+    white-space: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.subElem ul {
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+.subHeading {
+  font-weight: bold;
+}
+
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  font-size: small;
+}
+.footer ul {
+  list-style-type: none;
+}
+#copyright {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
 }

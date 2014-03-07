@@ -37,30 +37,60 @@ Do the following if you're using your customized build of modernizr (http://www.
 <header id="headr" class="fluid">
   <div id="top_header" class="fluid">
     <div id="left_headr"> 
-      <img src="img/idc_logo.jpg" alt="International Design Center" id="logo_img" class="hide_tablet"/>
-      <img src="img/idc_logo_mobile.jpg" alt="International Design Center" id="logo_img_mobile" class="hide_desktop"/>
+      <img src="img/idc_logo.jpg" alt="International Design Center" id="logo_img"/>
       <a id="phoneNum" class="gen_text hide_smallDesk">612 - 341 - 3441</a>
     </div>
     <div id="right_headr">
       <div id="cartDiv">
-        <img src="/img/cart_icon.png" alt="Cart" id="cartButton" />
-        <span id="cartItems" class="gen_text">0 items</span>
+        <span id="cartItems" class="gen_text">NO ITEMS</span>
       </div>
       <img src="/img/search_icon.png" alt="Search" id="searchButton" /> 
       <img src="img/mobile_nav_icon.png" alt="Mobile Navagation Bar" id="mobileNav" class="hide_desktop" onClick=""/> 
     </div>
   </div>
   <nav id="navBar" class="fluid gen_text">
-    <div class="nav_elem hide_tablet"><a id="entertainment">ENTERAINMENT</a></div>
-    <div class="nav_elem hide_tablet"><a id="living">LIVING</a></div>
-    <div class="nav_elem hide_tablet"><a id="dining">DINING</a></div>
-    <div class="nav_elem hide_tablet"><a id="bedroom">BEDROOM</a></div>
-    <div class="nav_elem hide_tablet"><a id="office">OFFICE</a></div> 
-    <div class="nav_elem hide_tablet"><a id="lighting">LIGHTING</a></div>
-    <div class="nav_elem hide_tablet"><a id="rugs">RUGS</a></div>
-    <div class="nav_elem hide_tablet"><a id="accessories">ACCESSORIES</a></div>
+    <ul class="navMain">
+      <li class="mainElem hide_tablet"><a id="entertainment">ENTERAINMENT</a></li>
+      <li class="mainElem hide_tablet">
+        <a id="living">LIVING</a>
+        <ul class="navSub">
+          <li class="subElem">
+            <a class="subHeading">Seating</a>
+            <ul>
+              <li><a>Sets</a></li>
+              <li><a>Sofas</a></li>
+              <li><a>Sectionals</a></li>
+              <li><a>Recliners</a></li>
+              <li><a>Ocational Chairs</a></li>
+            </ul>
+          </li>
+          <li class="subElem">
+            <a class="subHeading">Tables</a>
+            <ul>
+              <li><a>Coffee Tables</a></li>
+              <li><a>End Tables</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="mainElem hide_tablet"><a id="dining">DINING</a></li>
+      <li class="mainElem hide_tablet"><a id="bedroom">BEDROOM</a></li>
+      <li class="mainElem hide_tablet"><a id="office">OFFICE</a></li>
+      <li class="mainElem hide_tablet"><a id="lighting">LIGHTING</a></li>
+      <li class="mainElem hide_tablet"><a id="rugs">RUGS</a></li>
+      <li class="mainElem hide_tablet"><a id="accessories">ACCESSORIES</a></li>
+    </ul>
   </nav>
 </header>
 <div id="body" class="gridContainer clearfix"> </div>
+<footer class="gen_text footer">
+  <ul>
+    <li><a>Location and Hours</a></li>
+    <li><a>Contact Us</a></li>
+    <li><a>Shipping</a></li>
+    <li><a>Terms and Conditions</a></li>
+  </ul>
+  <span id="copyright">Copyright © 2013 International Design Center, Inc. All Rights Reserved.</span>
+</footer>
 </body>
 </html>

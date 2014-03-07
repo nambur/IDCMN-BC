@@ -81,12 +81,6 @@ img, object, embed, video {
 }
 
 /* custom styles for tablet and bellow */
-#left_headr {
-	height: 60px;
-}
-#right_headr {
-	height: 60px;
-}	
 #navBar {
 	width: 0px;
 	float: right;
